@@ -1,0 +1,15 @@
+name: "AI-nization and Psychological Safety in Global Workplaces"
+internal_name: "AI_nization_Survey"
+description: "Please answer a 3-minute survey about how Generative AI tools (ChatGPT, Claude, etc.) affect your day-to-day job security and psychological safety."
+# Replace this with your actual Google Form or survey URL
+external_study_url: "https://docs.google.com/forms/d/e/1FAIpQLSfpX_REPLACE_WITH_YOUR_ID/viewform"
+prolific_id_option: question # We ask for their ID in a question
+completion_code: "AI_VAL_2026"
+completion_option: code
+total_available_places: 5
+estimated_completion_time: 3
+reward: 50 # Reward in cents/pence (50 pence / $0.65 approx per person)
+device_compatibility:
+  - desktop
+  - tablet
+  - mobile
