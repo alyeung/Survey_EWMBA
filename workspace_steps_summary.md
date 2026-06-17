@@ -32,3 +32,18 @@ Here is the simplified list of actions taken to set up your **AI-nization and Ps
 1.  **Top Up:** Add **$50.00 USD** to your Prolific workspace wallet.
 2.  **Preview:** Click **Preview** on your [Prolific Study Dashboard](https://app.prolific.com/researcher/studies/6a331dff05850bc0afd54ffc) to test the participant flow.
 3.  **Publish:** Click **Publish** on the web dashboard to start collecting data from the 56 global participants.
+
+---
+
+## 💡 How Prolific Pricing Works & Fluctuates
+
+Your budget is capped at **$50.00 USD**. To prevent unexpected pricing increases:
+
+1.  **Estimated vs. Actual Completion Time (Underpaying Studies):**
+    *   If participants take longer to complete the survey than the estimated 3 minutes, Prolific will flag it as underpaying.
+    *   You will be required to issue retroactive adjustments, which could push the total cost over $50.00. 
+    *   *Tip:* Keep the questions clear and concise to ensure participants finish within the 3-minute target.
+2.  **Platform Fees:** 
+    *   Prolific adds a fee of **42.8%** (corporate) or **33.3%** (academic/non-profit) on top of the participant rewards. 
+3.  **VAT & Currency:**
+    *   UK/EU billing adds **20% VAT** on the service fee portion. Setting a US billing address (e.g. UC Berkeley) avoids this.
