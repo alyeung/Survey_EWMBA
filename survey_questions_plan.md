@@ -17,7 +17,9 @@ Based on your course notes, here is a structured survey plan. These survey track
    * *Options:* Shifted power to younger, tech-savvy junior employees / Strengthened the position of senior leaders / Had no noticeable impact on power dynamics.
 4. **[Multiple Choice]** Which implementation strategy do you believe is most effective for adopting AI in a global organization?
    * *Options:* A universal mandate (everyone uses the same tools) / Customized adoption tracks (different business units or regions select and customize their own AI tools) / Voluntary adoption (no guidelines or requirements).
-5. **[Open-Ended]** Describe a scenario where you felt pressured to use AI to complete a task, but felt it was either unnecessary, counter-productive, or made you feel anxious about your role value.
+5. **[Open-Ended]** Describe a scenario where you felt pressured to use AI to complete a task, but felt it was either unnecessary, counter-productive, or made you feel anxious about your role value. (Note: in the live Prolific survey, this was converted to a multiple-choice question on Coercion & Pressure to support API rules).
+6. **[Multiple Choice]** Which of the following training formats do you find most effective for learning how to use and integrate Generative AI tools (e.g., ChatGPT, Claude) into your daily workflows?
+   * *Options:* Hands-on, Interactive Workshops (live group sessions) / 1-on-1 Mentorship or Coaching (personalized guidance) / Self-Paced Tutorials & Online Videos (interactive online courses) / Formal Classroom Classes / Peer-Led Learning Communities / On-the-job Trial and Error.
 
 ---
 

@@ -58,6 +58,17 @@ Have you ever felt pressured to use AI to complete a task, even when you felt it
 
 ---
 
+### Q6. Preferred Learning Format
+Which of the following training formats do you find **most effective** for learning how to use and integrate Generative AI tools (e.g., ChatGPT, Claude) into your daily workflows?
+- [ ] **Hands-on, Interactive Workshops** *(live group sessions with practical exercises)*
+- [ ] **1-on-1 Mentorship or Coaching** *(personalized guidance from a peer, manager, or expert)*
+- [ ] **Self-Paced Tutorials & Online Videos** *(interactive online courses, documentation, or videos)*
+- [ ] **Formal Classroom Classes** *(traditional lecture-style courses with structured curriculums)*
+- [ ] **Peer-Led Learning Communities** *(informal Slack channels, weekly tips sharing with teammates)*
+- [ ] **On-the-job Trial and Error** *(independent experimentation as tasks arise, without formal training)*
+
+---
+
 ## 🏁 Submission & Verification
 
 > [!TIP]
@@ -67,3 +78,4 @@ Have you ever felt pressured to use AI to complete a task, even when you felt it
 > **Completion Code:** `AI_VAL_2026`
 
 [Submit and Complete Study]
+
