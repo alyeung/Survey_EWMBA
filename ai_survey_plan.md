@@ -59,7 +59,7 @@ To execute a free simulation using your default profile (`akyeung@gmail.com`):
 ### 1. Create a Test Participant (Run once in Terminal)
 ```bash
 curl -X POST https://api.prolific.com/api/v1/researchers/participants/ \
-  -H "Authorization: Token GXBtYQcPmtEnx9MDgfXJMVdOwGJnboN9YdjOjAas89xcg5-c-WY2ZitqA1SdjsxKWAKrxK1Y0J9N03Phk2w1dNtaAjnjOP4nYMXSHhuMuMMGbzpmjhRg7h6T" \
+  -H "Authorization: Token YOUR_PROLIFIC_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"email": "allan+test@gmail.com"}'
 ```
