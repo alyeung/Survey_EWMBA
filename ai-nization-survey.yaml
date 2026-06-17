@@ -6,7 +6,7 @@ external_study_url: "https://prolific.co/surveys/6a33219cffd7624bc7caf738"
 prolific_id_option: question
 completion_code: "AI_VAL_2026"
 completion_option: code
-total_available_places: 74 # Sized for a $50 budget
+total_available_places: 56 # Adjusted to keep cost strictly under $50 USD / £40 GBP
 estimated_completion_time: 3
 reward: 50 # 50 cents/pence per participant ($0.50)
 device_compatibility:
