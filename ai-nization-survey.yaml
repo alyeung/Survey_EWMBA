@@ -1,8 +1,8 @@
 name: "AI-nization and Psychological Safety in Global Workplaces"
 internal_name: "AI_nization_Survey"
 description: "Please answer a 3-minute survey about how Generative AI tools (ChatGPT, Claude, etc.) affect your day-to-day job security and psychological safety."
-# Linked directly to your native Prolific survey
-external_study_url: "https://app.prolific.com/surveys/6a33219cffd7624bc7caf738"
+# Linked directly to your native Prolific survey using the correct domain routing
+external_study_url: "https://prolific.co/surveys/6a33219cffd7624bc7caf738"
 prolific_id_option: question
 completion_code: "AI_VAL_2026"
 completion_option: code
