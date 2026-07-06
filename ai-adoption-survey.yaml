@@ -1,0 +1,32 @@
+name: "AI Adoption and Psychological Safety in Global Workplaces"
+internal_name: "AI_Adoption_Survey"
+description: "Please answer a 3-minute survey about how Generative AI tools (ChatGPT, Claude, etc.) affect your day-to-day job security and psychological safety."
+# Linked directly to your native Prolific survey using the correct domain routing
+external_study_url: "https://berkeley.qualtrics.com/jfe/form/SV_cCIqbC4QNOAzqNU?PROLIFIC_PID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}"
+prolific_id_option: url_parameters
+completion_code: "AI_VAL_2026"
+completion_option: url
+total_available_places: 70 # Increased to maximize $50 budget (70 places @ $0.50 + fees = ~$49.99 USD)
+estimated_completion_time: 3
+reward: 50 # 50 cents/pence per participant ($0.50)
+device_compatibility:
+  - desktop
+  - tablet
+  - mobile
+filters:
+  - filter_id: "current-country-of-residence"
+    selected_values:
+      - "1"  # United States
+  - filter_id: "employment-status"
+    selected_values:
+      - "0"  # Full-Time
+  - filter_id: "age"
+    selected_range:
+      lower: 22
+      upper: 55
+  - filter_id: "employment-sector"
+    selected_values:
+      - "9"   # Information Technology
+      - "16"  # Science, Technology, Engineering & Mathematics (STEM)
+
+

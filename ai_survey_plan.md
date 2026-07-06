@@ -1,6 +1,6 @@
-# Action Plan: AI-nization Survey Deployment
+# Action Plan: AI Adoption Survey Deployment
 
-This plan outlines the exact steps, configurations, and commands needed to set up and test your **AI-nization & Psychological Safety** survey for free.
+This plan outlines the exact steps, configurations, and commands needed to set up and test your **AI Adoption & Psychological Safety** survey for free.
 
 ---
 
@@ -11,14 +11,14 @@ This plan outlines the exact steps, configurations, and commands needed to set u
 ```
 
 * **Business/MBA Leads:** Create the Google Form with the questions and write down the final URL.
-* **Developer:** Save the YAML file, configure the CLI with the default profile (`akyeung@gmail.com`), and run the test script.
+* **Developer:** Save the YAML file, configure the CLI with the default profile (`researcher@example.com`), and run the test script.
 
 ---
 
 ## 🛠️ Step 1: Create the Google Form (MBA Leads)
 
 1. Go to [Google Forms](https://docs.google.com/forms/) and create a new blank form.
-2. Add the **5 questions** defined in **Track 1** of [survey_questions_plan.md](file:///Users/allanyeung/Documents/June%2017%20prolific/survey_questions_plan.md).
+2. Add the **5 questions** defined in **Track 1** of [survey_questions_plan.md](survey_questions_plan.md).
 3. **Crucial:** To track which responses correspond to which participant IDs (without asking for their real names):
    * Add a short-answer question: *"Please enter your Prolific ID:"*
    * Alternatively, Google Forms can accept URL pre-fills, but asking them to copy-paste their ID is the easiest no-code method.
@@ -30,11 +30,11 @@ This plan outlines the exact steps, configurations, and commands needed to set u
 
 ## 💻 Step 2: Create the CLI Study Configuration (Developer)
 
-Create a file named `ai-nization-survey.yaml` in your workspace `/Users/allanyeung/Documents/June 17 prolific/ai-nization-survey.yaml` with the following content:
+Create a file named `ai-adoption-survey.yaml` in your workspace directory with the following content:
 
 ```yaml
-name: "AI-nization and Psychological Safety in Global Workplaces"
-internal_name: "AI_nization_Survey"
+name: "AI Adoption and Psychological Safety in Global Workplaces"
+internal_name: "AI_Adoption_Survey"
 description: "Please answer a 3-minute survey about how Generative AI tools (ChatGPT, Claude, etc.) affect your day-to-day job security and psychological safety."
 # Replace this with your actual Google Form URL
 external_study_url: "https://docs.google.com/forms/d/e/1FAIpQLSfpX_REPLACE_WITH_YOUR_ID/viewform"
@@ -54,20 +54,20 @@ device_compatibility:
 
 ## 🚀 Step 3: Run the Free CLI Test Run (Developer)
 
-To execute a free simulation using your default profile (`akyeung@gmail.com`):
+To execute a free simulation using your default profile (`researcher@example.com`):
 
 ### 1. Create a Test Participant (Run once in Terminal)
 ```bash
 curl -X POST https://api.prolific.com/api/v1/researchers/participants/ \
   -H "Authorization: Token YOUR_PROLIFIC_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"email": "allan+test@gmail.com"}'
+  -d '{"email": "test-participant@example.com"}'
 ```
 
 ### 2. Create the Draft Study
 ```bash
 # This creates the study in draft mode (free) and prints the study ID
-prolific study create -t ai-nization-survey.yaml
+prolific study create -t ai-adoption-survey.yaml
 ```
 
 ### 3. Generate Free Test Link
@@ -81,11 +81,11 @@ prolific study test <STUDY_ID>
 
 ## 📊 Step 4: Live Launch & Data Collection
 
-Once you add funds online to your personal account (`akyeung@gmail.com`):
+Once you add funds online to your personal account (`researcher@example.com`):
 
 1. **Publish the study:**
    ```bash
-   prolific study create -t ai-nization-survey.yaml --publish
+   prolific study create -t ai-adoption-survey.yaml --publish
    ```
 2. **Monitor Submissions:**
    Check completion progress and get submission data:

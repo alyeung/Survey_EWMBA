@@ -1,6 +1,6 @@
 # 📋 EWMBA Study: Simplified Setup Steps
 
-Here is the simplified list of actions taken to set up your **AI-nization and Psychological Safety** survey:
+Here is the simplified list of actions taken to set up your **AI Adoption and Psychological Safety** survey:
 
 ---
 
@@ -11,16 +11,16 @@ Here is the simplified list of actions taken to set up your **AI-nization and Ps
     *   Ensured all credentials are safe and excluded from the public code repository.
 
 2.  **Configured Survey Questions**
-    *   Designed 6 multiple-choice questions on AI mandates, status shifts, and psychological safety in the workplace.
-    *   Created the survey directly in Prolific's **Native Survey Builder** (Survey ID: `6a33263f6182e3fa6ac13aec`).
+    *   Designed 9 multiple-choice questions (including 1 attention check) on AI mandates, status shifts, psychological safety, job role, and organizational seniority.
+    *   Created the survey directly in **Qualtrics** using the Qualtrics API (Survey ID: `SV_cCIqbC4QNOAzqNU`), linked to your Berkeley account.
 
 3.  **Configured Demographics & Budget**
-    *   Created the study configuration file ([ai-nization-survey.yaml](file:///Users/allanyeung/Documents/June%2017%20prolific/ai-nization-survey.yaml)).
-    *   **Demographics:** Targeted full-time and part-time workers living in the **US, UK, and Australia**.
-    *   **Budget:** Capped the reward at **$0.50** per participant and the total slots at **56 places** to keep the total cost strictly under **$50.00 USD**.
+    *   Created the study configuration file ([ai-adoption-survey.yaml](ai-adoption-survey.yaml)).
+    *   **Demographics:** Targeted **full-time** workers living in the **United States (US)** aged **22 to 55** who work in the **Information Technology** or **STEM** sectors.
+    *   **Budget:** Capped the reward at **$0.50** per participant and the total slots at **70 places** to keep the total cost strictly under **$50.00 USD** (70 places * $0.50 reward + 42.8% fee = $49.99).
 
 4.  **Created Draft Study**
-    *   Registered the study draft on Prolific's system (Study ID: `6a331dff05850bc0afd54ffc`).
+    *   Registered the study draft on Prolific's system, linking to your Qualtrics survey with URL parameter tracking for IDs (Study ID: `6a4b443fd87a847024e788c8`).
 
 5.  **Committed to GitHub**
     *   Connected the workspace to the GitHub repository [Survey_EWMBA](https://github.com/alyeung/Survey_EWMBA) and pushed all configuration and documentation files to the `main` branch.
@@ -30,8 +30,8 @@ Here is the simplified list of actions taken to set up your **AI-nization and Ps
 ## 🚀 Next Steps to Launch
 
 1.  **Top Up:** Add **$50.00 USD** to your Prolific workspace wallet.
-2.  **Preview:** Click **Preview** on your [Prolific Study Dashboard](https://app.prolific.com/researcher/studies/6a331dff05850bc0afd54ffc) to test the participant flow.
-3.  **Publish:** Click **Publish** on the web dashboard to start collecting data from the 56 global participants.
+2.  **Preview:** Click **Preview** on your Prolific Study Dashboard (at `https://app.prolific.com/researcher/studies/[STUDY_ID]`) to test the participant flow.
+3.  **Publish:** Click **Publish** on the web dashboard to start collecting data from the 70 US tech/STEM participants.
 
 ---
 

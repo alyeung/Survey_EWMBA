@@ -4,8 +4,8 @@ Based on your course notes, here is a structured survey plan. These survey track
 
 ---
 
-## 🤖 Track 1: "AI-nization" & Psychological Safety (The AI Mandate)
-* **Core Hypothesis:** Top-down corporate mandates to use Generative AI ("AI-nization") disrupt internal power dynamics (shifting status from senior leaders to tech-savvy juniors) and create psychological insecurity, which can be mitigated by custom, unit-specific adoption tracks.
+## 🤖 Track 1: "AI Adoption" & Psychological Safety (The AI Mandate)
+* **Core Hypothesis:** Top-down corporate mandates to use Generative AI ("AI Adoption") disrupt internal power dynamics (shifting status from senior leaders to tech-savvy juniors) and create psychological insecurity, which can be mitigated by custom, unit-specific adoption tracks.
 * **Target Audience on Prolific:** Corporate and knowledge-work professionals globally who are experiencing AI tool adoption or mandates in their workplace.
 
 ### Suggested Survey Questions:

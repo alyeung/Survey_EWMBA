@@ -1,7 +1,7 @@
 # 📋 Prolific Native Survey: Participant Preview
 
-**Study Title:** AI-nization and Psychological Safety in Global Workplaces  
-**Researcher:** Allan Yeung (`akyeung+prolific@gmail.com`)  
+**Study Title:** AI Adoption and Psychological Safety in Global Workplaces  
+**Researcher:** Allan Yeung (researcher@example.com)  
 **Estimated Time:** 3 minutes | **Reward:** $0.50 USD / £0.40 GBP  
 
 ---
@@ -12,7 +12,7 @@
 
 ---
 
-## 📑 Section 1: AI-nization & Workplace Dynamics
+## 📑 Section 1: AI Adoption & Workplace Dynamics
 
 ### Q1. Job Security & AI Mandates
 How does a company-wide mandate or pressure to use Generative AI tools (e.g. ChatGPT, Claude, Copilot) in your daily tasks affect your psychological comfort and job security?
