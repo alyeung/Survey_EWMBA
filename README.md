@@ -4,11 +4,11 @@ This repository contains the survey design, research questions, and Prolific dep
 
 ---
 
-## 📁 Repository Contents & File Guide
+## Repository Contents & File Guide
 
 This workspace contains all the research design, deployment scripts, and reference files for the study:
 
-### 📄 Research & Planning Docs
+### Research & Planning Docs
 *   **[survey_questions_plan.md](survey_questions_plan.md):** Defines the academic survey questions across four core research tracks inspired by your EWMBA cases:
     1.  *Track 1:* AI Adoption & Psychological Safety (our core focus).
     2.  *Track 2:* Culturally-Aligned Incentives (Juhudi/Hofstede).
@@ -17,18 +17,18 @@ This workspace contains all the research design, deployment scripts, and referen
 *   **[Managing People in Global Context.md](Managing%20People%20in%20Global%20Context.md):** Detailed notes mapping EWMBA course concepts, case studies, and reading references that form the academic foundation of the research tracks.
 *   **[prolific_survey_demo.md](prolific_survey_demo.md):** A clean participant-facing preview of how the survey questions render for respondents.
 
-### 🚀 Deployment & Integration Guides
+### Deployment & Integration Guides
 *   **[workspace_steps_summary.md](workspace_steps_summary.md):** A simplified, step-by-step summary checklist of all actions taken to set up, secure, and validate your active survey.
 *   **[ai_survey_plan.md](ai_survey_plan.md):** A step-by-step guide outlining how the study is registered and executed on the Prolific platform.
 *   **[free_survey_plan.md](free_survey_plan.md):** A guide to running zero-cost integration tests using Prolific's developer sandbox.
 
-### ⚙️ Automation Scripts & Configs
+### Automation Scripts & Configs
 *   **[ai-adoption-survey.yaml](ai-adoption-survey.yaml):** The study configuration file defining target demographics, budget constraints, and redirection loops.
 *   **[create_or_update_study.py](create_or_update_study.py):** A dynamic Python script that reads the YAML file, checks if a draft study is already present on Prolific, and edits/patches it (PATCH) instead of creating duplicates.
 
 ---
 
-## 🤖 Research Focus: "AI Adoption" & Psychological Safety
+## Research Focus: "AI Adoption" & Psychological Safety
 
 This study investigates how top-down corporate mandates to adopt Generative AI tools (ChatGPT, Claude, etc.) impact employee job security, psychological safety, and team status dynamics across global organizations.
 
@@ -39,7 +39,7 @@ We compare:
 
 ---
 
-## 🚀 How to Run the Study
+## How to Run the Study
 
 1.  **Configure API Authentication:**
     Ensure your token is set locally or in your Prolific config file (`~/.config/prolific-oss/prolific.yaml`).
